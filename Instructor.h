@@ -3,8 +3,18 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
-
+class course{
+private:
+string courseCode;
+string courseName;
+int maxStudents;
+Student* students;
+int currentStudents;
+public:
+addStudent(const Student& s);
+displayCourseInfo();
+}
+#endif
 
 
 
