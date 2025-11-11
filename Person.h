@@ -4,7 +4,13 @@
 #include <string>
 using namespace std;
 
-//#write Person class here
+class person{
+  private:
+  string name;
+  int id;
+  public:
+  display();
+}
 
 
 
